@@ -1,0 +1,7 @@
+<h1>Hello World</h1>
+
+{% for object in counties %}
+<p>
+<a href="{{ object.get_absolute_url }}">{{ object.name }}</a>
+</p>
+{% endfor %}

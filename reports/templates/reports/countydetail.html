@@ -1,0 +1,4 @@
+<h1>{{ county }}</h1>
+{% for object in lakes %}
+<a href= "{{ object.get_absolute_url }}" >{{ object.name }}</a>
+{% endfor %}
